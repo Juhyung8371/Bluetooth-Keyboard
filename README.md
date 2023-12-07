@@ -67,7 +67,7 @@ This is the key code used for HID ([more keycodes here](https://www.win.tue.nl/~
 
 ## Arduino Setup
 
-<img src='images/arduino-bluetooth-hc06-voltage-div.png' width=400> 
+<img src='/images/arduino-bluetooth-hc06-voltage-div.png' width=400> 
 
 [Image source](https://www.aranacorp.com/en/arduino-and-bluetooth-module-hc-06/)
 
