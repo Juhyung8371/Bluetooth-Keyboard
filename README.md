@@ -35,11 +35,11 @@ First of all, I needed a way to detect keystrokes. I thought using the PyGame mo
 
 If sending the keystrokes to the second computer constantly is the point, you could use the [pynput module](https://pythonhosted.org/pynput/keyboard.html#monitoring-the-keyboard).
 
-<img src='images/flowchart.png' width=400> 
+<img src='readme_images/flowchart.png' width=400> 
 
 This is the keyboard flowchart. There is an initial keystroke delay to distinguish between a single stroke and a long press. 
 
-<img src='images/Keyboard.png' width=600> 
+<img src='readme_images/Keyboard.png' width=600> 
 
 This is the key code used for HID ([more keycodes here](https://www.win.tue.nl/~aeb/linux/kbd/scancodes-14.html)). Currently, I only send keys sequentially without considering modifiers (shift, ctrl, etc.). I can add more features by adding the modifier in the keyboard buffer. [This page](https://forum.flirc.tv/index.php?/topic/2209-usb-hid-codes-keys-and-modifier-keys-for-flirc_util-record_api-x-y/) states that modifier keys are specified by logically OR'ing these values together as a binary  
 
@@ -67,7 +67,7 @@ This is the key code used for HID ([more keycodes here](https://www.win.tue.nl/~
 
 ## Arduino Setup
 
-<img src='images/arduino-bluetooth-hc06-voltage-div.png' width=400> 
+<img src='readme_images/arduino-bluetooth-hc06-voltage-div.png' width=400> 
 
 [Image source](https://www.aranacorp.com/en/arduino-and-bluetooth-module-hc-06/)
 
